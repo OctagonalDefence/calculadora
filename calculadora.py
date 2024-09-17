@@ -17,16 +17,26 @@ def suma(num1, num2):
 
 def resta(num1, num2):
     return num1 - num2
-
+# Funcion multiplicacio
+#  num1: int represnta el numero 1
+#  num2: int represnta el numero 2
+#  return: int retorna la multiplicacio de num
 def multiplicacio(num1, num2):
     return num1 * num2
 
 def divisio(num1, num2):
     return num1 / num2
+<<<<<<< Updated upstream
 
 def potencia(num1, num2):
     return num1 ** num2
 
+=======
+# Funcion calculadora
+#  num1: int represnta el numero 1
+#  num2: int represnta el numero 2
+#  operador: str represnta l'operador(+, -, *, /)
+>>>>>>> Stashed changes
 def calculadora(num1, num2, operador):
     if operador == "+":
         return suma(num1, num2)
