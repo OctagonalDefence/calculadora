@@ -3,6 +3,10 @@ num2 = int
 operador = str
 resultat = int
 
+# Funcion Suma
+#  num1: int represnta el numero 1
+#  num2: int represnta el numero 2
+#  return: int retorna la suma de num
 def suma(num1, num2): 
     return num1 + num2
 
@@ -45,3 +49,4 @@ operador = input("Introdueix l'operador (+, -, *, /, ^): ")
 resultat = calculadora(num1, num2, operador)
 print("El resultat és:", resultat) 
 
+1
