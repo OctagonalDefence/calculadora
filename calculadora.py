@@ -7,13 +7,14 @@ resultat = int
 #  num1: int represnta el numero 1
 #  num2: int represnta el numero 2
 #  return: int retorna la suma de num
+
 def suma(num1, num2): 
     return num1 + num2
 
 # Funció per a la resta
-# Definim la funció resta que rep dos números i retorna la seva resta
 # num1: primer número
 # num2: segon número
+# return: retorna la resta de num1 i num2
 
 def resta(num1, num2):
     return num1 - num2
@@ -24,9 +25,20 @@ def resta(num1, num2):
 def multiplicacio(num1, num2):
     return num1 * num2
 
+# Funció per a la divisió
+# num1: primer número
+# num2: segon número
+# return: retorna la divisió de num1 entre num2
+
+
 def divisio(num1, num2):
     return num1 / num2
 <<<<<<< Updated upstream
+
+# Funció per a la potència
+# num1: base
+# num2: exponent
+# return: retorna la potència de num1 elevat a num2
 
 def potencia(num1, num2):
     return num1 ** num2
